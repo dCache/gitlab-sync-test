@@ -13,7 +13,7 @@ jobs:
     env:
       GITLAB_REPOSITORY: "gitlab.desy.de/dcache/gitlab-sync-test"
       GITLAB_PROJECT_TOKEN: ${{ secrets.GITLAB_PASSWORD }}
-      REMOTE_TARGET_BRANCH: "master"
+      REMOTE_TARGET_BRANCH: "main"
       REMOTE_BRANCH_PREFIX: "github"
 
     steps:
